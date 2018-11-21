@@ -1,1 +1,1 @@
-# C++ & C Exercises 
+# Repo for storing random coding exrecies
