@@ -1,0 +1,3 @@
+gcc multithreading.c -lpthread
+
+./a.out

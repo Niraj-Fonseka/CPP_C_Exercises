@@ -1,1 +1,1 @@
-# Repo for storing random coding exrecies
+# Repo for storing random coding exercises
