@@ -32,7 +32,13 @@ void String::change(const char *str)
     s = new char[size+1]; 
     strcpy(s, str); 
 } 
-  
+
+
+/*
+/ Copy constructor is pass by refernece because if not,
+/ the copy constructor will call itself to make a copy and then
+/ loop infinitely 
+*/
 String::String(const String& old_str) 
 { 
     size = old_str.size; 
